@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <titel></titel>
+        <style>
+            .c{
+                text-align: center;
+            }
+            .d{
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+            }
+            .but{
+                padding: 10px;
+                border-radius: 10px;
+                margin: 10px;
+                background-color: blueviolet;
+            }
+            .e{
+                background-color: black;
+                border: 30px;
+                padding-bottom: 40px;
+                padding-top: 20px;
+                border-radius: 20px;
+            }
+            .main{
+                display:flex;
+                flex-direction:row;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+            }
+            .p{
+                background-color: gray;
+                border-radius: 100px;
+                margin: 20px;
+                display: flex;
+                flex-direction: column;
+                height: 45px;
+                width: 45px;
+            }
+            .q{
+                background-color: gray;
+                border-radius: 100px;
+                margin: 20px;
+                display: flex;
+                flex-direction: column;
+                height: 45px;
+                width: 45px; 
+            }
+            .r{
+                background-color: gray;
+                border-radius: 100px; 
+                margin: 20px;
+                display: flex;
+                flex-direction: column;
+                height: 45px;
+                width: 45px; 
+            }
+        </style>
+    </head>
+    <body>
+        <div class="a">
+            <div class="b">
+                <div class="c">
+                    <h1>Traffic Lights</h1>
+                </div>
+                <div class="main">
+                    <div class="d">
+                    <button class="but" id="b1" onclick="red()">stop</button>
+                    <button class="but" id="b2" onclick="yellow()">Ready</button>
+                    <button class="but" id="b3" onclick="green()">Go</button>
+                    </div>
+                    <div class="e">
+                        <button class="p" id="p"></button>
+                        <button class="q" id="q"></button>
+                        <button class="r" id="r"></button>
+                    </div>
+                    <div id="trafficlights"></div>
+                </div>
+            </div>
+        </div>
+        <script src="traf.js"></script>
+    </body>
+</html>
